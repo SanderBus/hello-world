@@ -1,0 +1,49 @@
+<!doctype html>
+
+    <head>
+        My experiences with github
+    </head>
+    
+    <body>
+        <section>
+            <h2>10 mei 2016 -- First experiences with git and github</h2>
+            <p>
+                <h3>Github glossary</h3>
+                <b>Branch</b> - Making a copy of the repository (which still lives in that repository), such that one can make changes without affecting the original, which lives in the master branch. You can merge the copy bakc into the master branch when you are happy with the changes.<br>
+                <b>Clone</b> - Copy of a repository on your local machine.<br>
+                <b>Commit</b> - Saves the file(s) you worked on, including a log message. Each commit gets a unique ID(hash or SHA), such that older versions of the code can be recovered.<br>
+                <b>Push</b> - Act of pushing an updated file from your local machine to github.<br>
+                <b>Repository</b> - Project folder, this is what github is about. It not only saves files with code, but also documentation and revision history. Multiple people can work on one project.<br>
+                Source: <a href="https://help.github.com/articles/github-glossary/">Github glossary</a>
+            </p>
+            
+            <p>
+                <h3>How to connect git and githu</h3>
+                <ul>
+                    <li>Clone project from github to local directory:<br>
+                        <pre>git clone https://sanderbus@github.com/SanderBus/project.git</pre></li>
+                    <li>You can now locally alter the files as desired. </li>
+                    <li>Once you are happy with the progress you can commit to it (+give appropriate comments for future devolopers:)<br>
+                        <pre>git add program.py</pre><br>
+                        <pre>git commit -m "Commit message"</pre></li>
+                    <li>If your done you can push the files back to github:<br>
+                        <pre>git push origin master</pre><br>
+                        Or to another branch then <pre>master</pre></li>
+                </ul>
+            </p>
+            
+            <p>
+                <h3>Usefull sources:</h3>
+                <a href="http://rogerdudler.github.io/git-guide/ ">Git - the simple guide</a> <br>
+                <a href="http://chris.beams.io/posts/git-commit/">How to Write a Git Commit Message </a><br>
+            </p>
+        
+        
+        </section>
+    
+    
+    </body>
+
+
+
+
